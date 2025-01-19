@@ -1,0 +1,41 @@
+body{
+    margin-top: 150px;
+    background-color: #b9a2a2;
+    /* background-image: url(https://cdn-icons-png.flaticon.com/512/25/25719.png) ; */
+}
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 9px solid #ccc;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 35px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.img{
+    position: relative;
+    top: 10px;
+    left: -632px;
+}
+footer{
+    height: 53px;
+}
